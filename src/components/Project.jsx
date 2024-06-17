@@ -35,7 +35,7 @@ function Project() {
             className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">
                 {project.title}
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="ml-2 text-blue-500 hover:underline">
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="ml-2 text-purple-700 hover:underline">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </a>
               </h6>
