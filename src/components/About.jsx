@@ -33,7 +33,7 @@ function About() {
           <div className='flex justify-center lg:justify-start'>
             <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>{ABOUT_TEXT}</p>
           </div>
-          <div className='flex justify-center lg:justify-start'>
+          <div className='flex justify-center lg:justify-start mb-8'>
             <a href={cvUrl} download='Muhammed_Yasin_CV.pdf' className='flex items-center mt-4 text-neutral-500'>
               <FaFileDownload className='mr-2' /> Download CV
             </a>
