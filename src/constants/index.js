@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/sellzy.png";
+import project2 from "../assets/projects/Task-Management.png";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/netflix.png";
+import project5 from "../assets/projects/olx.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -24,6 +25,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "EJS", "Node.js", "MongoDB" , "JavaScript"],
+    link: "https://sellzy-ecommerce.onrender.com/",
   },
   {
     title: "Task Management App",
@@ -31,13 +33,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: [ "React", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Bootstrap"],
+    link: "https://to-do-list-rust-gamma.vercel.app/",
   },
   {
     title: "Netflix Clone",
@@ -45,13 +41,15 @@ export const PROJECTS = [
     description:
       "An exact clone of netflix  where we can watch movie trailers and upcoming movies integrated with apis.",
     technologies: ["Tailwind CSS", "React", "FireBase" , "Vite"],
+    link: "https://netflix-clone-beta-snowy.vercel.app/",
   },
   {
     title: "Olx Clone",
-    image: project4,
+    image: project5,
     description:
       "An exact clone of olx  where we can sell and buy diffrent types of products.",
     technologies: ["Tailwind CSS", "React", "FireBase" , "Vite"],
+    link: "https://olx-clone-tawny.vercel.app/",
   },
 ];
 
