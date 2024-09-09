@@ -53,7 +53,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Mundappurath House Ayanikkad Chirayil (P.O) Kondotty Malappuram Kerala India 673638",
+  address: "Malappuram , India ",
   phoneNo: "+91 8301 99 8370 ",
   email: "muhammedyasindev@gmail.com",
 };
