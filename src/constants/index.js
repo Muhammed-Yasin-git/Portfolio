@@ -24,7 +24,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "EJS", "Node.js", "MongoDB" , "JavaScript"],
-    link: "https://sellzy-ecommerce.onrender.com/",
+    link: "https://sellzy.online/",
   },
   {
     title: "Task Management App",
@@ -40,7 +40,7 @@ export const PROJECTS = [
     description:
       "An exact clone of netflix  where we can watch movie trailers and upcoming movies integrated with apis.",
     technologies: ["Tailwind CSS", "React", "FireBase" , "Vite"],
-    link: "https://netflix-clone-beta-snowy.vercel.app/",
+    link: "https://netflix-clone-rose-xi.vercel.app",
   },
   {
     title: "Olx Clone",
@@ -48,7 +48,7 @@ export const PROJECTS = [
     description:
       "An exact clone of olx  where we can sell and buy diffrent types of products.",
     technologies: ["Tailwind CSS", "React", "FireBase" , "Vite"],
-    link: "https://olx-clone-tawny.vercel.app/",
+    link: "https://olx-clone-plum-phi.vercel.app/",
   },
 ];
 

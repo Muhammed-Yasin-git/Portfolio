@@ -1,0 +1,26 @@
+.group {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .group-hover\:block {
+    display: none;
+  }
+  
+  .group:hover .group-hover\:block {
+    display: block;
+  }
+  
+  .group-hover\:block {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
