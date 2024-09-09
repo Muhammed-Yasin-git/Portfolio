@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I am a skilled fresher with a deep dedication to codi
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Student",
+    role: "Full Stack Developer Intern",
     company: "Brototype",
     description: `I am currently enrolled in a bootcamp that emphasizes self-study, where I have been learning and mastering the MERN stack over the past 10 months. During this time, I have developed a thorough understanding of MongoDB, Express.js, React, and Node.js. Additionally, I have gained knowledge in data structures and PostgreSQL. I have applied my skills by building several projects, and I continue to enhance my expertise. As a result, I am now a skilled fresher ready to contribute to challenging projects.`,
     technologies: [ "MERN" ,"Javascript"  ,"PostgresSQL" ,"Data Structures" , "Tailwind CSS"],
