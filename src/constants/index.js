@@ -2,6 +2,7 @@ import project1 from "../assets/projects/sellzy.png";
 import project2 from "../assets/projects/Task-Management.png";
 import project3 from "../assets/projects/netflix.png";
 import project4 from "../assets/projects/olx.png";
+import project5 from "../assets/projects/weather.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -49,6 +50,14 @@ export const PROJECTS = [
       "An exact clone of olx  where we can sell and buy diffrent types of products.",
     technologies: ["Tailwind CSS", "React", "FireBase" , "Vite"],
     link: "https://olx-clone-plum-phi.vercel.app/",
+  },
+  {
+    title: "Real Time Weather App",
+    image: project5,
+    description:
+       "A real-time weather app that offers accurate forecasts and current conditions in a user-friendly interface.",
+    technologies: ["Tailwind CSS", "React", "JavaScript" , "Vite"],
+    link: "https://weather-app-sandy-theta.vercel.app/",
   },
 ];
 
